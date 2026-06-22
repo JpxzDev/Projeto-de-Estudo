@@ -1,0 +1,70 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background-color: #1e1e1e;
+  margin: 0;
+}
+
+/* Foto de perfil */
+body > img {
+  border-radius: 50%;
+  margin-top: 25px;
+}
+
+/* Efeito hover na foto */
+body > img:hover {
+  transform-origin: center;
+  transform: scale(1.05);
+}
+
+/* Nome */
+h3 {
+  color: #ffffff;
+  margin-top: 10px;
+  border-bottom: 2px solid #ffffff;
+  padding-bottom: 5px;
+}
+
+/* BOTÕES */
+button {
+  background-color: #ffff;
+  color: #ff0000;
+  border: 2px solid #ff0000;
+  border-radius: 40px;
+  padding: 10px 25px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+
+  /* ESSENCIAL PRA ALINHAR ÍCONE + TEXTO */
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+button a {color: #ffffff;
+}
+button img {
+    filter: none;
+}
+
+/* GitHub botão */
+.button2 {
+  background-color: #181717;
+  border: 2px solid #ffffff;
+}
+
+/* Remove estilo do link dentro do botão */
+button a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* ÍCONES DOS BOTÕES */
+button img {
+  width: 18px;
+  height: 18px;
+  border-radius: 0;
+}
