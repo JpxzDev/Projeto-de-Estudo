@@ -29,8 +29,8 @@ h3 {
 
 /* BOTÕES */
 button {
-  background-color: #ffff;
-  color: #ff0000;
+  background-color: #ff0000;
+  color: #ffffff;
   border: 2px solid #ff0000;
   border-radius: 40px;
   padding: 10px 25px;
@@ -67,4 +67,8 @@ button img {
   width: 18px;
   height: 18px;
   border-radius: 0;
+}
+
+button:hover {
+  transform: scale(1.05);
 }
