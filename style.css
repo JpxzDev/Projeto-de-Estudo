@@ -5,6 +5,13 @@ body {
   gap: 10px;
   background-color: #1e1e1e;
   margin: 0;
+
+}
+
+@media (max-width: 1024px){
+}
+
+@media (max-width: 768px){
 }
 
 body > img {
@@ -25,9 +32,8 @@ h3 {
 }
 
 button {
-  background-color: #ff0000;
-  color: #ffffff;
-  border: 2px solid #ff0000;
+  background-color: red;
+  border: 2px solid #ffffff;
   border-radius: 40px;
   padding: 10px 25px;
   font-weight: bold;
@@ -38,8 +44,7 @@ button {
   align-items: center;
   gap: 8px;
 }
-button a {color: #ffffff;
-}
+
 button img {
     filter: none;
 }
@@ -65,4 +70,23 @@ button:hover {
   transform: scale(1.05);
 }
 
-.button3 <
+.button3 {
+  background-color: #ffffff;
+  border: 2px solid orangered;
+  margin-top: 15px;
+}
+
+.button3 a {
+  color: orangered;
+}
+
+.caixadebotao {
+  background-color: blue;
+  margin-top: 60px;
+  padding-right: 30px;
+  padding-left: 30px;
+  border-radius: 40px;
+  padding-bottom: 100px;
+  max-width: 100%; margin: 0 auto;
+}
+
