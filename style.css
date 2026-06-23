@@ -7,19 +7,16 @@ body {
   margin: 0;
 }
 
-/* Foto de perfil */
 body > img {
   border-radius: 50%;
   margin-top: 25px;
 }
 
-/* Efeito hover na foto */
 body > img:hover {
   transform-origin: center;
   transform: scale(1.05);
 }
 
-/* Nome */
 h3 {
   color: #ffffff;
   margin-top: 10px;
@@ -27,7 +24,6 @@ h3 {
   padding-bottom: 5px;
 }
 
-/* BOTÕES */
 button {
   background-color: #ff0000;
   color: #ffffff;
@@ -38,7 +34,6 @@ button {
   font-size: 16px;
   cursor: pointer;
 
-  /* ESSENCIAL PRA ALINHAR ÍCONE + TEXTO */
   display: flex;
   align-items: center;
   gap: 8px;
@@ -49,20 +44,17 @@ button img {
     filter: none;
 }
 
-/* GitHub botão */
 .button2 {
   background-color: #181717;
   border: 2px solid #ffffff;
 }
 
-/* Remove estilo do link dentro do botão */
 button a {
   color: #ffffff;
   text-decoration: none;
   font-weight: bold;
 }
 
-/* ÍCONES DOS BOTÕES */
 button img {
   width: 18px;
   height: 18px;
@@ -72,3 +64,5 @@ button img {
 button:hover {
   transform: scale(1.05);
 }
+
+.button3 <
